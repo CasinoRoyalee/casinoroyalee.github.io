@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Royale</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+        }
+
+        /* Шапка */
+        .header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            animation: pulse 1s infinite;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 48px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+
+        /* Описание приложения */
+        .description {
+            background-color: #f2f2f2;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .description h2 {
+            margin-top: 0;
+            font-size: 36px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Кнопки и скриншоты */
+        .buttons {
+            text-align: center;
+            margin-top: 50px;
+            animation: fadeIn 1s;
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            background-color: #c62828;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background-color: #8e0000;
+        }
+
+        .screenshots {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            animation: scaleIn 1s;
+        }
+
+        .screenshots img {
+            margin: 0 10px;
+            max-width: 300px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            animation: rotate 2s infinite linear;
+        }
+
+        /* Интересные элементы */
+        .interesting {
+            background-color: #000;
+            padding: 50px 20px;
+            text-align: center;
+            animation: pulse 1s infinite;
+        }
+
+        .interesting p {
+            font-size: 24px;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+
+        .interesting .quote {
+            font-style: italic;
+            margin-top: 20px;
+            color: #aaa;
+        }
+
+        /* Анимации */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes scaleIn {
+            0% {
+                transform: scale(0);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Casino Royale</h1>
+    </header>
+
+    <section class="description">
+        <h2>Application Description</h2>
+        <p>Welcome to Casino Royale - the best place for gambling entertainment! Here you will find the most popular games and big winnings. Join and try your luck right now!</p>
+    </section>
+
+    <section class="buttons">
+        <a href="ry.html">Privacy Policy</a>
+        <a href="be.html">Terms & Conditions</a>
+        <a href="jrf.html">Data Removal</a>
+    </section>
+
+    <section class="screenshots">
+        <img src="1.png" alt="Скриншот игры 1">
+        <img src="2.png" alt="Скриншот игры 2">
+        <img src="3.png" alt="Скриншот игры 3">
+    </section>
+
+    <section class="interesting">
+        <p>Don't miss the chance to hit the big jackpot and feel the adrenaline of gambling!</p>
+        <p class="quote">"Fortune favors the brave!"</p>
+    </section>
+</body>
+</html>
